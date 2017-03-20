@@ -1,0 +1,256 @@
+
+	html,body{
+	max-height: 100%;
+	height: 100%;
+	overflow:auto;
+}
+
+body{
+	font-family: , sans-serif;
+	font-size: 18px;
+	background: #eeeeee;
+}
+li{
+	list-style: none;
+}
+li a{
+	text-decoration: none;
+	color: #000;
+	transition: color 0.5s ease;
+}
+li a:hover{
+	color: #e10011;
+}
+	
+.header{
+	/*max-width: 1200px;*/
+	width: 1200px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*position: relative;*/
+
+}
+header nav{
+	display: inline-block;
+	width: 100%;
+}
+.logo{
+	font-size: 35px;
+	margin-right: 400px;
+}
+nav li{
+	display: inline-block;
+	padding: 0 2rem 5rem 3rem;
+	font-size: 1rem;
+}
+
+.img{
+	float: right;
+	padding: 0;
+	margin-right: 50px;
+	width: 40%;
+}
+.lorem{
+	display: inline-block;
+	width: 40%;
+	text-align: right; 
+	margin-left: 170px;
+}
+p.text{
+	color: red;
+}
+.fin{
+	font-size: 60px;
+	text-align: right;
+	padding-top: 30px;
+}
+.fin:first-child{
+	color: red;
+}
+.fin span{
+	color: red;
+}
+.container{
+	width: 80%;
+	height: 130%;
+	background: #fff;
+	margin: auto;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 30px;
+	border: 1px solid transparent;
+}
+.container .underline{
+	padding-bottom: 50px;
+}
+.container p{
+	width: 60%;
+	font-size: 18px;
+	margin: auto;
+}
+
+
+.foto{
+	display: inline-block;
+	width: 90%;
+	height: 50%; 
+	border: 1px solid transparent;
+	margin: auto;
+	margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.foto li{
+	display: inline-block;
+	margin: auto;
+	padding: 18px;
+}
+.foto li{
+	position: relative;
+}
+.hover{
+	position: absolute;
+	top: 0;
+}
+.hover{
+	display: none;
+}
+
+li:hover .hover{
+	display: block;
+	position: absolute;
+	top: 0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	max-width: 100%;
+	height: auto;
+}
+
+.productman{
+	display: inline-block;
+    width: 35%;
+    padding-top: 30px;
+    padding-left: 600px;
+}
+
+.productman p{
+	font-size: 18px;
+	text-align: center;
+}
+/*input.email{
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-position:0 center;
+	color: transparent;
+	/*padding-left:18px;
+}
+input.email{
+	background-image: url('../img/envelope.png');
+}
+input.email{
+	width: 486px;
+	height: 70px;
+	font-size: 18px;
+	padding: 0.5rem 1.2rem 0.5rem 5rem;
+}
+
+.bth{
+	display: inline-block;
+	width: 700px;
+	height: 70px;
+	background-color: #ffffff;
+	border: 1px solid red;
+    margin-left: 420px;
+    margin-top: 30px;
+}
+.bth{
+	border-radius: 35px;
+}
+button{
+	width:200px;
+	height: 70px;
+	background: #e10011;
+	/*font-size: 25px;
+	font-weight: 600;
+	padding: 0;
+	color: #ffffff; 
+}*/
+form {
+  display: inline-block;
+  margin-left: 520px;
+  margin-top: 70px;
+  font-size: 0;
+}
+
+input{
+  display: inline-block;
+  background-color: #ffffff;
+  width: 442px;
+  height: 70px;
+  padding: 0 0 0 0;
+  border-style: none;
+  font-family: Raleway;
+  color:  #979797;
+  font-size: 22px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 20px;
+  text-align: left;
+}
+
+input:focus{
+    outline: none;
+    color: #e10011;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.bth button{
+  border-style: none;
+  height: 70px;    
+}
+
+form .wrap1{
+  display: inline-block;
+  width: 50px;
+  border-radius: 50px 0 0 50px;
+  background-color: #ffffff;
+  font-size: 20px;
+  color:  #979797;
+  text-align: right;
+}
+
+.bth .wrap2{
+  display: inline-block;
+  width: 208px;
+  border-radius: 0 50px 50px 0;
+  border-left: 1px solid #e10011;
+  background-color: #e10011;
+  font-family: FontAwesome;
+  color:  #ffffff;
+  font-size: 24px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  text-align: center;
+  transition: all 0.5s ease;
+  }
+
+.wrap2:hover{
+   color: #e10011;
+   background-color: #ffffff;
+   border-left: 1px solid #e10011;
+   text-align: center;
+   transition: all 0.5s ease;
+}
+.social{
+	text-align: center;
+	padding-top: 50px;
+} 
+footer{
+	text-align: center;
+	padding-top: 30px;
+}
+	
+	
+	
